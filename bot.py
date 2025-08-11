@@ -70,7 +70,7 @@ def run_bot():
 
             channel = message.channel
             try:
-                await channel.send('[1] !play => Toca musica \n [2] !stop => para a porra da musica \n [3] !exit Tira o bot do VoiceChat')
+                await channel.send('[1] !play => Toca musica \n [2] !stop => para a musica \n [3] !exit Tira o bot do VoiceChat')
 
             except Exception as e:
                 print(e)                
