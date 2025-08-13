@@ -33,7 +33,6 @@ def run_bot():
                 voice_clients[voice_client.guild.id] = voice_client 
 
             except Exception as e:
-                await channel.send('É preciso que alguém entre no canal de voz para o bot entrar.')
                 print(e) 
 
             try:
